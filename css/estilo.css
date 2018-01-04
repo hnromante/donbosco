@@ -1,0 +1,568 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	background-color: #4d731c;
+	border-bottom:10px solid #839d61;
+}
+
+
+.general {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.general .izq_cont {
+	width: 600px;
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+
+.general .izq_cont .public_1 {
+	padding: 15px;
+	background-color: #839d61;
+	margin-top: 15px;
+	border-radius: 5px
+}
+
+.general .izq_cont .public_1 .titulo_publ h2 {
+	margin:0;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+
+}
+
+.general .izq_cont .public_1 .parrafo {
+	padding-bottom: 20px;
+}
+
+.general .izq_cont .public_1 .parrafo p {
+	margin:0;
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	margin-bottom: 5px;
+
+}
+
+.general .izq_cont .boton_publ a {
+	color: white;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	background-color:#4d731c;
+	padding: 10px 20px;
+	border-radius: 15px;
+	margin-left: 200px;
+
+}
+
+.general .izq_cont .boton_publ a:hover {
+	color: #4d731c;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	background-color:white;
+	padding: 10px 20px;
+	border-radius: 15px;
+	margin-left: 200px;
+
+}
+
+.general .der_cont {
+	margin: 0 auto;
+	margin-left: 15px;
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.general .der_cont .agenda_cont {
+	margin-top: 15px;
+}
+
+
+.general .der_cont .agenda_cont .titulo_agenda h3 {
+	margin: 0;
+	color:white;
+	font-size: 24px;
+	background-color: #4d731c;
+	text-align: center;
+
+}
+
+.general .der_cont .agenda_cont .mes_agn h4 {
+	margin: 0;
+	color:white;
+	font-size: 24px;
+	background-color: #839d61;
+	text-align: center;
+
+}
+
+.general .der_cont .agenda_cont .prog {
+	height: 70px;
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px
+}
+
+
+.general .der_cont .agenda_cont .nro_mes {
+	width: 96px;
+	height: 70px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+}
+
+.general .der_cont .agenda_cont .programa .prog p {
+	margin:0;
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	margin-bottom: 5px;
+
+
+}
+
+.general .der_cont .agenda_cont .programa .prog {
+	background-color: #b8c7a4;
+
+}
+
+
+.general .der_cont .agenda_cont .programa .nro_mes p {
+	margin:0;
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	margin-bottom: 5px;
+
+
+}
+
+.general .der_cont .agenda_cont .programa .nro_mes{
+	background-color: #b8c7a4;
+
+}
+
+.general .der_cont .agenda_cont .programa {
+	margin-bottom: 5px;
+}
+
+
+footer {
+	margin-top:20px;
+	width: 100%;
+	background-color: #4d731c;
+	border-top:10px solid #839d61;
+
+}
+footer .general_footer {
+	margin: 0 auto;
+	width: 960px;
+
+}
+
+footer .general_footer .parrafo_footer {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+
+}
+
+footer .general_footer .contacto_footer {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+footer .general_footer .nav_footer {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+
+footer .general_footer .parrafo_footer {
+	margin-top: 10px;
+}
+
+
+footer .general_footer .parrafo_footer h3 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+footer .general_footer .parrafo_footer p {
+	color: white;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-right: 50px;
+
+}
+
+footer .general_footer .contacto_footer h3 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+footer .general_footer .contacto_footer p {
+	margin:0;
+	color: white;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+footer .general_footer .contacto_footer input {
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 5px;
+	width: 270px;
+}
+
+footer .general_footer .contacto_footer .mensaje {
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 5px;
+	width: 270px;
+	height: 50px;
+
+}
+
+footer .general_footer .contacto_footer .enviar {
+	background-color: #839d61;
+	color: white;
+	width: 150px;
+
+}
+
+footer .general_footer .contacto_footer .enviar:hover {
+	background-color: white;
+	color: #839d61;
+	width: 150px;
+
+}
+
+
+
+
+
+/* CSS - Admisión 2018 */
+
+
+.general_admi {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.general_admi .titulo_admi h2 {
+	color: #4d731c;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin:0;
+	margin-bottom: 15px;
+}
+
+.general_admi .parrafo_1adm {
+	background-color: #839d61;
+	padding: 10px;
+ 	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+.general_admi .parrafo_1adm  h3{
+
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin:0;
+}
+
+
+.general_admi .parrafo_1adm p {
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	margin:0;
+	margin-bottom: 15px;
+
+
+}
+
+
+.general_admi .parrafo_2adm {
+	background-color: #839d61;
+	padding: 10px;
+ 	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+.general_admi .parrafo_2adm  h3{
+
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin:0;
+}
+
+
+.general_admi .parrafo_2adm p {
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	margin:0;
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+
+
+.general_admi .parrafo_3adm {
+	background-color: #839d61;
+	padding: 10px;
+ 	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+.general_admi .parrafo_3adm  h3{
+
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin:0;
+}
+
+
+.general_admi .parrafo_3adm p {
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	margin:0;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+/* CSS - Galeria */
+
+
+.general_galeria {
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.general_galeria .titulo_gal h2 {
+	color: #4d731c;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin:0;
+	margin-bottom: 15px
+}
+
+
+.general_galeria .img_gal img {
+
+	width: 100%;
+	border-radius:5px;
+	border: solid 5px #4d731c;
+}
+
+
+.general_galeria .img_gal {
+	width:100%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px 10px 5px 10px;
+
+}
+
+
+/* CSS - Noticias Don Bosco */
+
+.general_not {
+	width: 100;
+	margin: 0 auto;
+
+}
+
+.general_not .titulo_not h2 {
+	color: #4d731c;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin:0;
+	margin-bottom: 15px
+}
+
+
+.general_not .not_1 {
+	background-color: #839d61;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.general_not .not_1 p {
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	margin:0;
+	margin-bottom: 15px;
+
+}
+
+.general_not .not_1 h3 {
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin:0;
+}
+
+
+/* CSS- Contacto */
+
+
+.general_contacto {
+	width: 100%;
+	background-color: #b7c7ae;
+
+
+}
+
+.general_contacto .rest_contacto {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.titulo_contacto h2{
+
+	color: #4d731c;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin:0;
+	margin-bottom: 15px
+
+}
+
+.general_contacto .rest_contacto .izq_contacto {
+	width: 470px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+.general_contacto .rest_contacto .izq_contacto p {
+	color: #4d731c;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 15px;
+}
+
+.general_contacto .rest_contacto .der_contacto p {
+	color: #4d731c;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 15px;
+}
+
+.general_contacto .rest_contacto .izq_contacto input {
+	border:none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	width: 430px
+}
+
+
+.general_contacto .rest_contacto .der_contacto .mensaje {
+	height: 120px;
+	border:none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	width: 430px
+}
+
+
+.general_contacto .rest_contacto .der_contacto .enviar {
+	border: none;
+	background-color: #4d731c;
+	color: white;
+	padding: 10px 45px;
+	border-radius: 5px;
+}
+
+.general_contacto .rest_contacto .der_contacto .enviar:hover {
+	border: none;
+	background-color: white;
+	color:  #4d731c;
+	padding: 10px 45px;
+	border-radius: 5px;
+	border-bottom: solid 5px #839d61 ;
+
+}
+
+
+.general_contacto .rest_contacto .der_contacto {
+	width: 470px;
+	display: inline-block;
+	vertical-align: top;
+}
+header {
+	width:100%;
+	text-align: center;
+}
+header .logo {
+	vertical-align: top;
+	display: inline-block;
+}
+header .botonera nav ul li {
+	display: inline-block;
+	vertical-align: top;
+}
+header .botonera {
+	width: 90%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+header .botonera a {
+	text-decoration: none;
+	color: white;
+}
+header .botonera .logo img {
+	width: 250px;
+}
